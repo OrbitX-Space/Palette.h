@@ -11,7 +11,7 @@ Palette.h is a lightweight C++ library designed to simplify printing text with m
 1. Syntax:<br>
 ‎ ‎ ‎ `TEXT.print<COLORNAME>_<TEXTorBACKGROUND>("Your text", <0 or 1>);`<br>
 ‎ ‎ ‎ Ex: `TEXT.printRED_BG("FOO", 0);`<br>
-‎ ‎ ‎ ‎ ‎ ‎ ‎ `TEXT.printBLUE_TX("FOO", 1);`<br>
+‎ ‎ ‎ ‎ ‎ ‎  ‎ `TEXT.printBLUE_TX("FOO", 1);`<br>
 3. `<COLORNAME>` = BLACK,<br>
 ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ RED,<br>
 ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ORANGE,<br>
