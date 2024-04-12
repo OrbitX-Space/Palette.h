@@ -10,8 +10,8 @@ Palette.h is a lightweight C++ library designed to simplify printing text with m
 ### Docs:
 1. Syntax:<br>
    `TEXT.print<COLORNAME>_<TEXTorBACKGROUND>("Your text", <0 or 1>);`<br>
-   Ex: `TEXT.printRED_BG("FOO", 0);`
-       `TEXT.printBLUE_TX("FOO", 1);`
+   Ex: `TEXT.printRED_BG("FOO", 0);`<br>
+       `TEXT.printBLUE_TX("FOO", 1);`<br>
 3. `<COLORNAME>` = BLACK,<br>
                    RED,<br>
                    ORANGE,<br>
@@ -22,8 +22,8 @@ Palette.h is a lightweight C++ library designed to simplify printing text with m
                    CYAN,<br>
                    WHITE.<br>
 4. `<TEXTorBACKGROUND>` = `TX` for text color & `BG` for background color.<br>
-5. `0` & `1` basically mean next line (if 1, it does this: `std::cout << "\n";`).
-       `0` --> Same line
-       `1` --> Next line 
+5. `0` & `1` basically mean next line (if 1, it does this: `std::cout << "\n";`).<br>
+       `0` --> Same line<br>
+       `1` --> Next line<br>
 ***
 **Author: OrbitX.Space**
