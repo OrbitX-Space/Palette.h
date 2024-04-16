@@ -20,8 +20,8 @@
 //  => Docs(BETA) can be found in https://github.com/OrbitX-Space/Palette.h page.
 
 
-#ifndef FONT_COLOR
-#define FONT_COLOR
+#ifndef PALETTE_ONE_ZERO_ZERO
+#define PALETTE_ONE_ZERO_ZERO
 
 #include <iostream>
 
@@ -279,4 +279,4 @@ public:
 TextColors TEXT;
 
 
-#endif FONT_COLOR
+#endif //PALETTE_ONE_ZERO_ZERO
